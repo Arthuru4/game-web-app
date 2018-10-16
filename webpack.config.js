@@ -6,8 +6,8 @@ const outputDirectory = 'dist';
 
 module.exports = {
     entry: {
-        game: './src/game/main.js',
-        main: './src/client/index.js'
+        main: './src/client/index.js',
+        game: './src/game/js/main.js'
     },
     output: {
         path: path.join(__dirname, outputDirectory),
@@ -42,6 +42,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin([outputDirectory]),
         new HtmlWebpackPlugin({
+            filename: './game/index.html',
             template: './src/game/index.html',
             chunks: ['game']
         }),
