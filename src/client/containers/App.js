@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Provider} from 'react-redux';
+import React, { Component } from 'react';
+import { Provider } from 'react-redux';
 import Header from '../layouts/Header';
 import Content from '../layouts/Content';
 import Footer from '../layouts/Footer';
@@ -20,4 +20,4 @@ class App extends Component {
     }
 }
 
-export default {App};
+export default { App };
