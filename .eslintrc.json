@@ -9,6 +9,11 @@
     "es6": true
   },
   "rules": {
+    "func-names": ["error", "never"],
+    "one-var": ["error", "always"],
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-extend-native": ["error", { "exceptions": ["String"] }],
+    "no-undef": ["error", { "typeof": true}],
     "no-console": "off",
     "comma-dangle": "off",
     "react/jsx-filename-extension": "off",
