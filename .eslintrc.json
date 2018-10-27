@@ -14,7 +14,7 @@
     "react/jsx-filename-extension": "off",
     "react/prefer-stateless-function": "off",
     "linebreak-style": 0,
-    "indent": ["error", 4],
+    "indent": ["error", 4, {"SwitchCase": 1}],
     "react/jsx-indent": ["error", 4, {"props": 4}]
   }
 }

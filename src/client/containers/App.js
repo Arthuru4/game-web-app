@@ -6,7 +6,7 @@ import Footer from '../layouts/Footer';
 import store from '../store/index';
 import '../styles/app.css';
 
-class App extends Component {
+export default class App extends Component {
     render() {
         return (
             <Provider store={store}>
@@ -19,5 +19,3 @@ class App extends Component {
         );
     }
 }
-
-export default { App };
