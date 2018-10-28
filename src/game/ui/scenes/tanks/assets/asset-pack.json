@@ -2,8 +2,8 @@
   "game": [
     {
       "type": "sprite",
-      "key": "item",
-      "url": "src/game/ui/scenes/tanks/assets/img/sprite.png"
+      "key": "tank",
+      "url": "{path}img/sprite.png"
     }
   ]
 }
